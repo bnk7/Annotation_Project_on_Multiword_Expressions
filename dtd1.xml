@@ -1,0 +1,13 @@
+<View>
+  <Labels name="label" toName="text">
+    	<Label name="span" value="MWE" background="blue"/>
+  </Labels>
+  <Choices perRegion="true" visiblewhen="region-selected" choice="single-radio" name="attribute" showInline="true" toName="text">
+        <Choice value="Idiom"/>
+        <Choice value="Noun-Noun Compound"/>
+        <Choice value="Verb-Particle Construction"/>
+        <Choice value="Light Verb Construction"/>
+        <Choice value="Other"/>
+  </Choices>
+  <HyperText name="text" value="$text" granularity="word"/>
+</View>

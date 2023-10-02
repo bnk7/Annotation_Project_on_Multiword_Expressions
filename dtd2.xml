@@ -1,0 +1,10 @@
+<View>
+  <Labels name="label" toName="text">
+    	<Label value="Idiom" background="purple"/>
+        <Label value="Noun-Noun Compound" background="blue"/>
+        <Label value="Verb-Particle Construction" background="green"/>
+        <Label value="Light Verb Construction" background="red"/>
+        <Label value="Other" background="grey"/>
+  </Labels>
+  <HyperText name="text" value="$text" granularity="word"/>
+</View>
